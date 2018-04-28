@@ -13,11 +13,13 @@
     "serve": "stencil-dev-server",
     "start": "npm run dev",
     "test": "jest --no-cache",
-    "test.watch": "jest --watch --no-cache"
+    "test.watch": "jest --watch --no-cache",
+    "web": "npm install serve && serve www"
   },
   "dependencies": {
     "@ionic/core": "4.0.0-alpha.3",
-    "@stencil/core": "0.7.26"
+    "@stencil/core": "0.7.26",
+    "serve": "^6.5.6"
   },
   "devDependencies": {
     "@stencil/dev-server": "latest",
