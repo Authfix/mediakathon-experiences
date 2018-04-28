@@ -14,7 +14,7 @@
     "start": "npm run dev",
     "test": "jest --no-cache",
     "test.watch": "jest --watch --no-cache",
-    "web": "npm install serve && serve www"
+    "web": "npm run dev --es5"
   },
   "dependencies": {
     "@ionic/core": "4.0.0-alpha.3",
