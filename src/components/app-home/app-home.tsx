@@ -11,7 +11,7 @@ export class AppHome {
     return [
       <ion-header>
         <ion-toolbar color='primary'>
-          <ion-title>Ionic PWA Toolkit</ion-title>
+          <ion-title>Experience</ion-title>
         </ion-toolbar>
       </ion-header>,
 

@@ -74,7 +74,7 @@ export class AppProfile {
             <ion-back-button defaultHref='/'></ion-back-button>
           </ion-buttons>
 
-          <ion-title>Ionic PWA Toolkit</ion-title>
+          <ion-title>Experience</ion-title>
         </ion-toolbar>
       </ion-header>,
 
