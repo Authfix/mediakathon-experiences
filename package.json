@@ -38,6 +38,9 @@
     "url": "https://github.com/ionic-team/stencil"
   },
   "homepage": "https://github.com/ionic-team/stencil",
+  "engines": {
+    "node": "8.11.x"
+  },
   "jest": {
     "transform": {
       "^.+\\.(js|ts|tsx)$": "<rootDir>/node_modules/@stencil/core/testing/jest.preprocessor.js"
