@@ -17,10 +17,7 @@ export class AppHome {
 
       <ion-content>
         <p>
-          Welcome to the Ionic PWA Toolkit.
-          You can use this starter to build entire PWAs all with
-          web components using Stencil and ionic/core! Check out the readme for everything that comes in this starter out of the box and
-          Check out our docs on <a href='https://stenciljs.com'>stenciljs.com</a> to get started.
+         Welcome to experiences
         </p>
 
         <ion-button href='/profile/stencil'>
