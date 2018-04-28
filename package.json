@@ -8,13 +8,13 @@
   ],
   "scripts": {
     "build": "stencil build",
-    "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",
+    "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server --httpPort 5000\" ",
     "devWithSW": "sd concurrent \"stencil build --dev --service-worker --watch\" \"stencil-dev-server\" ",
-    "serve": "stencil-dev-server",
+    "serve": "stencil-dev-server --httpPort 5000",
     "start": "npm run dev",
     "test": "jest --no-cache",
     "test.watch": "jest --watch --no-cache",
-    "web": "npm run dev --es5"
+    "web": "npm run dev --prod"
   },
   "dependencies": {
     "@ionic/core": "4.0.0-alpha.3",
