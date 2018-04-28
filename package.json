@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "build": "stencil build",
-    "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server --httpPort 5000\" ",
+    "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server --httpPort $PORT\" ",
     "devWithSW": "sd concurrent \"stencil build --dev --service-worker --watch\" \"stencil-dev-server\" ",
     "serve": "stencil-dev-server --httpPort 5000",
     "start": "npm run dev",
